@@ -5,7 +5,6 @@
   "description": "virtual reactive function state for vdom-alike applications",
   "version": "0.0.1",
   "license": "MIT",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://git@github.com:stagas/virtual-state.git"
