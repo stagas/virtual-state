@@ -74,6 +74,6 @@
     "vite-open": "^1.1.0"
   },
   "dependencies": {
-    "debounce-micro": "^1.0.0"
+    "debounce-micro": "^2.0.0"
   }
 }

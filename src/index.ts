@@ -6,9 +6,9 @@ type Fn = () => void
  * Hook.
  */
 export interface Hook {
-  trigger(): void
-  onmount?(): void
-  onunmount?(): void
+  trigger(): Promise<void> | void
+  onmount?: Fn | null
+  onunmount?: Fn | null
 }
 
 /**
@@ -31,9 +31,9 @@ export class Value<T> {
     return this.value
   }
 
-  set(newValue: T | (() => T)) {
+  async set(newValue: T | (() => T)) {
     this.value = typeof newValue === 'function' ? (newValue as () => T)() : newValue
-    this.trigger()
+    await this.trigger()
   }
 
   get current(): T {
