@@ -42,13 +42,13 @@ $ npm i virtual-state
 
 ### Hook
 
-[src/index.ts:8-12](https://github.com/stagas/virtual-state/blob/59b3396edf77ddb5140862a4928c86f7ca3ab928/src/index.ts#L8-L12 "Source code on GitHub")
+[src/index.ts:8-12](https://github.com/stagas/virtual-state/blob/2478dc6feb0b2690e2baea95bf339b93ede4c8e8/src/index.ts#L8-L12 "Source code on GitHub")
 
 Hook.
 
 ### Value
 
-[src/index.ts:17-48](https://github.com/stagas/virtual-state/blob/59b3396edf77ddb5140862a4928c86f7ca3ab928/src/index.ts#L17-L48 "Source code on GitHub")
+[src/index.ts:17-48](https://github.com/stagas/virtual-state/blob/2478dc6feb0b2690e2baea95bf339b93ede4c8e8/src/index.ts#L17-L48 "Source code on GitHub")
 
 Value.
 
@@ -59,7 +59,7 @@ Value.
 
 ### HookValues
 
-[src/index.ts:53-82](https://github.com/stagas/virtual-state/blob/59b3396edf77ddb5140862a4928c86f7ca3ab928/src/index.ts#L53-L82 "Source code on GitHub")
+[src/index.ts:53-82](https://github.com/stagas/virtual-state/blob/2478dc6feb0b2690e2baea95bf339b93ede4c8e8/src/index.ts#L53-L82 "Source code on GitHub")
 
 HookValues.
 
@@ -69,13 +69,13 @@ HookValues.
 
 ### Provider
 
-[src/index.ts:87-188](https://github.com/stagas/virtual-state/blob/59b3396edf77ddb5140862a4928c86f7ca3ab928/src/index.ts#L87-L188 "Source code on GitHub")
+[src/index.ts:87-188](https://github.com/stagas/virtual-state/blob/2478dc6feb0b2690e2baea95bf339b93ede4c8e8/src/index.ts#L87-L188 "Source code on GitHub")
 
 Provider.
 
 ### AsyncContext
 
-[src/index.ts:193-257](https://github.com/stagas/virtual-state/blob/59b3396edf77ddb5140862a4928c86f7ca3ab928/src/index.ts#L193-L257 "Source code on GitHub")
+[src/index.ts:193-257](https://github.com/stagas/virtual-state/blob/2478dc6feb0b2690e2baea95bf339b93ede4c8e8/src/index.ts#L193-L257 "Source code on GitHub")
 
 AsyncContext.
 
@@ -86,7 +86,7 @@ AsyncContext.
 
 ### Collection
 
-[src/index.ts:262-292](https://github.com/stagas/virtual-state/blob/59b3396edf77ddb5140862a4928c86f7ca3ab928/src/index.ts#L262-L292 "Source code on GitHub")
+[src/index.ts:262-292](https://github.com/stagas/virtual-state/blob/2478dc6feb0b2690e2baea95bf339b93ede4c8e8/src/index.ts#L262-L292 "Source code on GitHub")
 
 Collection.
 
