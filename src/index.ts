@@ -126,7 +126,7 @@ export class Provider {
 
   useValue = <T>(initialValue: T) => new Value(this, initialValue)
 
-  useCallback = (fn: () => any, deps: Value<any>[] = []) => {
+  useCallback = (fn: (...args: any[]) => any, deps: Value<any>[] = []) => {
     const callback = this.useState(() => fn)
     this.useEffect(() => {
       callback.set(() => fn)
